@@ -1,0 +1,10 @@
+^C:\USERS\PRO360\DOCUMENTS\WORKSPACE\C++\SFML_EXAMPLE\BUILD\CMAKEFILES\AC2C35D3D8924956B799A3C51F546923\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Pro360/Documents/Workspace/C++/SFML_Example -BC:/Users/Pro360/Documents/Workspace/C++/SFML_Example/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Pro360/Documents/Workspace/C++/SFML_Example/build/SFML_EXAMPLE.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
